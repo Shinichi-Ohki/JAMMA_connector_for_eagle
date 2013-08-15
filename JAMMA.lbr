@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -57,6 +57,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="comment" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -134,6 +135,28 @@ KEL 1168-056-009&lt;br&gt;</description>
 <text x="45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P9</text>
 <text x="49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
 <text x="53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<wire x1="-57.4" y1="-5" x2="-31" y2="-5" width="0.127" layer="51"/>
+<wire x1="-28.4" y1="-5" x2="57.4" y2="-5" width="0.127" layer="51"/>
+<text x="62.69" y="1.92" size="0.8128" layer="100">note: chamfer this edge 0.5mm</text>
+<wire x1="65.23" y1="-0.62" x2="66.5" y2="0.65" width="0.127" layer="100"/>
+<wire x1="66.5" y1="0.65" x2="74.12" y2="0.65" width="0.127" layer="100"/>
+<wire x1="65.23" y1="-0.62" x2="65.23" y2="-1.89" width="0.127" layer="100"/>
+<wire x1="65.23" y1="-1.89" x2="66.5" y2="-3.16" width="0.127" layer="100"/>
+<wire x1="66.5" y1="-3.16" x2="74.12" y2="-3.16" width="0.127" layer="100"/>
+<wire x1="75.39" y1="0.65" x2="75.39" y2="-3.16" width="0.127" layer="100"/>
+<wire x1="75.39" y1="-3.16" x2="75.7075" y2="-2.8425" width="0.127" layer="100"/>
+<wire x1="75.39" y1="-3.16" x2="75.0725" y2="-2.8425" width="0.127" layer="100"/>
+<wire x1="75.39" y1="0.65" x2="75.7075" y2="0.3325" width="0.127" layer="100"/>
+<wire x1="75.39" y1="0.65" x2="75.0725" y2="0.3325" width="0.127" layer="100"/>
+<wire x1="64.2775" y1="0.3325" x2="65.5475" y2="0.3325" width="0.127" layer="100"/>
+<wire x1="65.5475" y1="0.3325" x2="65.23" y2="0.015" width="0.127" layer="100"/>
+<wire x1="65.5475" y1="0.3325" x2="65.23" y2="0.65" width="0.127" layer="100"/>
+<wire x1="63.96" y1="0.65" x2="64.2775" y2="0.3325" width="0.127" layer="100"/>
+<wire x1="63.96" y1="0.65" x2="63.96" y2="1.285" width="0.127" layer="100"/>
+<text x="75.7075" y="-1.5725" size="0.8128" layer="51">1.6mm</text>
+<text x="75.7075" y="-1.5725" size="0.8128" layer="100">1.6mm</text>
+<text x="69.3575" y="-1.5725" size="0.8128" layer="51">PCB</text>
+<text x="69.3575" y="-1.5725" size="0.8128" layer="100">PCB</text>
 </package>
 <package name="JAMMA_BOTTOM">
 <description>&lt;b&gt;JAMMA Connector Bottom&lt;/b&gt;&lt;br&gt;
@@ -209,6 +232,28 @@ KEL 1168-056-009&lt;br&gt;</description>
 <text x="45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P9</text>
 <text x="49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
 <text x="53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="64.77" y="2.54" size="0.8128" layer="100">note: chamfer this edge 0.5mm</text>
+<wire x1="67.31" y1="0" x2="68.58" y2="1.27" width="0.127" layer="100"/>
+<wire x1="68.58" y1="1.27" x2="76.2" y2="1.27" width="0.127" layer="100"/>
+<wire x1="67.31" y1="0" x2="67.31" y2="-1.27" width="0.127" layer="100"/>
+<wire x1="67.31" y1="-1.27" x2="68.58" y2="-2.54" width="0.127" layer="100"/>
+<wire x1="68.58" y1="-2.54" x2="76.2" y2="-2.54" width="0.127" layer="100"/>
+<wire x1="77.47" y1="1.27" x2="77.47" y2="-2.54" width="0.127" layer="100"/>
+<wire x1="77.47" y1="-2.54" x2="77.7875" y2="-2.2225" width="0.127" layer="100"/>
+<wire x1="77.47" y1="-2.54" x2="77.1525" y2="-2.2225" width="0.127" layer="100"/>
+<wire x1="77.47" y1="1.27" x2="77.7875" y2="0.9525" width="0.127" layer="100"/>
+<wire x1="77.47" y1="1.27" x2="77.1525" y2="0.9525" width="0.127" layer="100"/>
+<wire x1="66.3575" y1="0.9525" x2="67.6275" y2="0.9525" width="0.127" layer="100"/>
+<wire x1="67.6275" y1="0.9525" x2="67.31" y2="0.635" width="0.127" layer="100"/>
+<wire x1="67.6275" y1="0.9525" x2="67.31" y2="1.27" width="0.127" layer="100"/>
+<wire x1="66.04" y1="1.27" x2="66.3575" y2="0.9525" width="0.127" layer="100"/>
+<wire x1="66.04" y1="1.27" x2="66.04" y2="1.905" width="0.127" layer="100"/>
+<text x="77.7875" y="-0.9525" size="0.8128" layer="51">1.6mm</text>
+<text x="77.7875" y="-0.9525" size="0.8128" layer="100">1.6mm</text>
+<text x="71.4375" y="-0.9525" size="0.8128" layer="51">PCB</text>
+<text x="71.4375" y="-0.9525" size="0.8128" layer="100">PCB</text>
+<wire x1="-28.4" y1="-5" x2="57.4" y2="-5" width="0.127" layer="51"/>
+<wire x1="-57.4" y1="-5" x2="-31" y2="-5" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
