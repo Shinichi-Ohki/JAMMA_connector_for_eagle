@@ -1,0 +1,10 @@
+*.*#*
+*.epf
+
+*/*#*
+*/*.epf
+
+# CAM Processor log
+*/*.gpi
+
+.DS_Store
