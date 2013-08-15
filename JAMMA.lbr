@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -106,6 +106,34 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="-28.45" y1="-5" x2="-28.45" y2="6" width="0.127" layer="20"/>
 <wire x1="-30.95" y1="-5" x2="-30.95" y2="6" width="0.127" layer="20"/>
 <wire x1="-30.95" y1="6" x2="-28.45" y2="6" width="0.127" layer="20"/>
+<text x="-53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="-49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="-45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="-41.58" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="-37.62" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">-5V</text>
+<text x="-33.66" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+12V</text>
+<text x="-29.7" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">KEY</text>
+<text x="-25.74" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_COUNTER1</text>
+<text x="-21.78" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_LOCKOUT1</text>
+<text x="-17.82" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">SPEAKER(+)</text>
+<text x="-13.86" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">AUDIO(+)</text>
+<text x="-9.9" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO RED</text>
+<text x="-5.94" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO BLUE</text>
+<text x="-1.98" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO GND</text>
+<text x="1.98" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">TEST SW</text>
+<text x="5.94" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN SW1</text>
+<text x="9.9" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">START SW1</text>
+<text x="13.86" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P1 UP</text>
+<text x="17.82" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P2 DOWN</text>
+<text x="21.78" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P3 LEFT</text>
+<text x="25.74" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P4 RIGHT</text>
+<text x="29.7" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P5 PUSH1</text>
+<text x="33.66" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P6 PUSH2</text>
+<text x="37.62" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P7 PUSH3</text>
+<text x="41.58" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P8</text>
+<text x="45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P9</text>
+<text x="49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
 </package>
 <package name="JAMMA_BOTTOM">
 <description>&lt;b&gt;JAMMA Connector Bottom&lt;/b&gt;&lt;br&gt;
@@ -153,6 +181,34 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="-28.45" y1="-5" x2="-28.45" y2="6" width="0.127" layer="20"/>
 <wire x1="-30.95" y1="-5" x2="-30.95" y2="6" width="0.127" layer="20"/>
 <wire x1="-30.95" y1="6" x2="-28.45" y2="6" width="0.127" layer="20"/>
+<text x="-53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="-49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="-45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="-41.58" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="-37.62" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">-5V</text>
+<text x="-33.66" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+12V</text>
+<text x="-29.7" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">KEY</text>
+<text x="-25.74" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_COUNTER2</text>
+<text x="-21.78" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_LOCKOUT2</text>
+<text x="-17.82" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">SPEAKER(-)</text>
+<text x="-13.86" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">AUDIO GND</text>
+<text x="-9.9" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO GREEN</text>
+<text x="-5.94" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO SYNC</text>
+<text x="-1.98" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">SERVICE SW</text>
+<text x="1.98" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">TILT SW</text>
+<text x="5.94" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN SW2</text>
+<text x="9.9" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">START SW2</text>
+<text x="13.86" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P1 UP</text>
+<text x="17.82" y="7.92" size="1.27" layer="21" font="vector" rot="R90" align="center-left">2P2 DOWN</text>
+<text x="21.78" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P3 LEFT</text>
+<text x="25.74" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P4 RIGHT</text>
+<text x="29.7" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P5 PUSH1</text>
+<text x="33.66" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P6 PUSH2</text>
+<text x="37.62" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P7 PUSH3</text>
+<text x="41.58" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P8</text>
+<text x="45.54" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">2P9</text>
+<text x="49.5" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="53.46" y="7.92" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
 </package>
 </packages>
 <symbols>
