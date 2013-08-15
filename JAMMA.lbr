@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -60,6 +60,100 @@
 </layers>
 <library>
 <packages>
+<package name="JAMMA_TOP">
+<description>&lt;b&gt;JAMMA Connector Top&lt;/b&gt;&lt;br&gt;
+Parts side&lt;br&gt;
+&lt;br&gt;
+for these card-edge connenctors&lt;br&gt;
+HIROSE CR7E-56DA-3.96E&lt;br&gt;
+HIROSE CR7E-56DB-3.96E&lt;br&gt;
+KEL 1168-056-009&lt;br&gt;</description>
+<smd name="1" x="-53.46" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="2" x="-49.5" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="3" x="-45.54" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="4" x="-41.58" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="5" x="-37.62" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="6" x="-33.66" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="8" x="-25.74" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="9" x="-21.78" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="10" x="-17.82" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="11" x="-13.86" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="12" x="-9.9" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="13" x="-5.94" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="14" x="-1.98" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="15" x="1.98" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="16" x="5.94" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="17" x="9.9" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="18" x="13.86" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="19" x="17.82" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="20" x="21.78" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="21" x="25.74" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="22" x="29.7" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="23" x="33.66" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="24" x="37.62" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="25" x="41.58" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="26" x="45.54" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="27" x="49.5" y="0" dx="2.3" dy="10" layer="1"/>
+<smd name="28" x="53.46" y="0" dx="2.3" dy="10" layer="1"/>
+<wire x1="-57.4" y1="6" x2="-57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="57.4" y1="6" x2="57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="-57.4" y1="-5" x2="-56.9" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="56.9" y1="-5.5" x2="57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="-56.9" y1="-5.5" x2="-31.45" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-27.95" y1="-5.5" x2="56.9" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-28.45" y1="-5" x2="-27.95" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-31.45" y1="-5.5" x2="-30.95" y2="-5" width="0.127" layer="20"/>
+<wire x1="-28.45" y1="-5" x2="-28.45" y2="6" width="0.127" layer="20"/>
+<wire x1="-30.95" y1="-5" x2="-30.95" y2="6" width="0.127" layer="20"/>
+<wire x1="-30.95" y1="6" x2="-28.45" y2="6" width="0.127" layer="20"/>
+</package>
+<package name="JAMMA_BOTTOM">
+<description>&lt;b&gt;JAMMA Connector Bottom&lt;/b&gt;&lt;br&gt;
+Solder side&lt;br&gt;
+&lt;br&gt;
+for these card-edge connenctors&lt;br&gt;
+HIROSE CR7E-56DA-3.96E&lt;br&gt;
+HIROSE CR7E-56DB-3.96E&lt;br&gt;
+KEL 1168-056-009&lt;br&gt;</description>
+<smd name="A" x="-53.46" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="B" x="-49.5" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="C" x="-45.54" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="D" x="-41.58" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="E" x="-37.62" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="F" x="-33.66" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="J" x="-25.74" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="K" x="-21.78" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="L" x="-17.82" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="M" x="-13.86" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="N" x="-9.9" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="P" x="-5.94" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="R" x="-1.98" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="S" x="1.98" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="T" x="5.94" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="U" x="9.9" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="V" x="13.86" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="W" x="17.82" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="X" x="21.78" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="Y" x="25.74" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="Z" x="29.7" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_A" x="33.66" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_B" x="37.62" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_C" x="41.58" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_D" x="45.54" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_E" x="49.5" y="0" dx="2.3" dy="10" layer="16"/>
+<smd name="_F" x="53.46" y="0" dx="2.3" dy="10" layer="16"/>
+<wire x1="-57.4" y1="6" x2="-57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="57.4" y1="6" x2="57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="-57.4" y1="-5" x2="-56.9" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="56.9" y1="-5.5" x2="57.4" y2="-5" width="0.127" layer="20"/>
+<wire x1="-56.9" y1="-5.5" x2="-31.45" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-27.95" y1="-5.5" x2="56.9" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-28.45" y1="-5" x2="-27.95" y2="-5.5" width="0.127" layer="20"/>
+<wire x1="-31.45" y1="-5.5" x2="-30.95" y2="-5" width="0.127" layer="20"/>
+<wire x1="-28.45" y1="-5" x2="-28.45" y2="6" width="0.127" layer="20"/>
+<wire x1="-30.95" y1="-5" x2="-30.95" y2="6" width="0.127" layer="20"/>
+<wire x1="-30.95" y1="6" x2="-28.45" y2="6" width="0.127" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JAMMA_TOP">
@@ -76,7 +170,6 @@ KEL 1168-056-009&lt;br&gt;</description>
 <pin name="+5V@2" x="12.7" y="22.86" length="middle" direction="pwr" rot="R180"/>
 <pin name="-5V" x="12.7" y="20.32" length="middle" direction="pwr" rot="R180"/>
 <pin name="+12V" x="12.7" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="KEY" x="12.7" y="15.24" length="middle" direction="nc" rot="R180"/>
 <pin name="COIN_CNT1" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="COIN_LOC1" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="SPK+" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -119,7 +212,6 @@ KEL 1168-056-009&lt;br&gt;</description>
 <pin name="+5V@2" x="15.24" y="22.86" length="middle" direction="pwr" rot="R180"/>
 <pin name="-5V" x="15.24" y="20.32" length="middle" direction="pwr" rot="R180"/>
 <pin name="+12V" x="15.24" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="KEY" x="15.24" y="15.24" length="middle" direction="nc" rot="R180"/>
 <pin name="COIN_CNT2" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="COIN_LOC2" x="15.24" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="SPK-" x="15.24" y="7.62" length="middle" direction="out" rot="R180"/>
@@ -150,6 +242,102 @@ KEL 1168-056-009&lt;br&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="JAMMA_TOP" prefix="JAMMA">
+<description>&lt;b&gt;JAMMA Connector Top&lt;/b&gt;&lt;br&gt;
+Parts side&lt;br&gt;
+&lt;br&gt;
+for these card-edge connenctors&lt;br&gt;
+HIROSE CR7E-56DA-3.96E&lt;br&gt;
+HIROSE CR7E-56DB-3.96E&lt;br&gt;
+KEL 1168-056-009&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="JAMMA_TOP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JAMMA_TOP">
+<connects>
+<connect gate="G$1" pin="+12V" pad="6"/>
+<connect gate="G$1" pin="+5V@1" pad="3"/>
+<connect gate="G$1" pin="+5V@2" pad="4"/>
+<connect gate="G$1" pin="-5V" pad="5"/>
+<connect gate="G$1" pin="1P1_UP" pad="18"/>
+<connect gate="G$1" pin="1P2_DOWN" pad="19"/>
+<connect gate="G$1" pin="1P3_LEFT" pad="20"/>
+<connect gate="G$1" pin="1P4_RIGHT" pad="21"/>
+<connect gate="G$1" pin="1P5_PUSH1" pad="22"/>
+<connect gate="G$1" pin="1P6_PUSH2" pad="23"/>
+<connect gate="G$1" pin="1P7_PUSH3" pad="24"/>
+<connect gate="G$1" pin="1P8" pad="25"/>
+<connect gate="G$1" pin="1P9" pad="26"/>
+<connect gate="G$1" pin="AUDIO+" pad="11"/>
+<connect gate="G$1" pin="COIN_CNT1" pad="8"/>
+<connect gate="G$1" pin="COIN_LOC1" pad="9"/>
+<connect gate="G$1" pin="COIN_SW1" pad="16"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@3" pad="27"/>
+<connect gate="G$1" pin="GND@4" pad="28"/>
+<connect gate="G$1" pin="SPK+" pad="10"/>
+<connect gate="G$1" pin="START_SW1" pad="17"/>
+<connect gate="G$1" pin="TEST_SW" pad="15"/>
+<connect gate="G$1" pin="VIDEO_BLUE" pad="13"/>
+<connect gate="G$1" pin="VIDEO_GND" pad="14"/>
+<connect gate="G$1" pin="VIDEO_RED" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JAMMA_BOTTOM" prefix="JAMMA">
+<description>&lt;b&gt;JAMMA Connector Bottom&lt;/b&gt;&lt;br&gt;
+Solder side&lt;br&gt;
+&lt;br&gt;
+for these card-edge connenctors&lt;br&gt;
+HIROSE CR7E-56DA-3.96E&lt;br&gt;
+HIROSE CR7E-56DB-3.96E&lt;br&gt;
+KEL 1168-056-009&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="JAMMA_BOTTOM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JAMMA_BOTTOM">
+<connects>
+<connect gate="G$1" pin="+12V" pad="F"/>
+<connect gate="G$1" pin="+5V@1" pad="C"/>
+<connect gate="G$1" pin="+5V@2" pad="D"/>
+<connect gate="G$1" pin="-5V" pad="E"/>
+<connect gate="G$1" pin="2P1_UP" pad="V"/>
+<connect gate="G$1" pin="2P2_DOWN" pad="W"/>
+<connect gate="G$1" pin="2P3_LEFT" pad="X"/>
+<connect gate="G$1" pin="2P4_RIGHT" pad="Y"/>
+<connect gate="G$1" pin="2P5_PUSH1" pad="Z"/>
+<connect gate="G$1" pin="2P6_PUSH2" pad="_A"/>
+<connect gate="G$1" pin="2P7_PUSH3" pad="_B"/>
+<connect gate="G$1" pin="2P8" pad="_C"/>
+<connect gate="G$1" pin="2P9" pad="_D"/>
+<connect gate="G$1" pin="AUDIO_GND" pad="M"/>
+<connect gate="G$1" pin="COIN_CNT2" pad="J"/>
+<connect gate="G$1" pin="COIN_LOC2" pad="K"/>
+<connect gate="G$1" pin="COIN_SW2" pad="T"/>
+<connect gate="G$1" pin="GND@1" pad="A"/>
+<connect gate="G$1" pin="GND@2" pad="B"/>
+<connect gate="G$1" pin="GND@3" pad="_E"/>
+<connect gate="G$1" pin="GND@4" pad="_F"/>
+<connect gate="G$1" pin="SERVICE_SW" pad="R"/>
+<connect gate="G$1" pin="SPK-" pad="L"/>
+<connect gate="G$1" pin="START_SW2" pad="U"/>
+<connect gate="G$1" pin="TILT_SW" pad="S"/>
+<connect gate="G$1" pin="VIDEO_GREEN" pad="N"/>
+<connect gate="G$1" pin="VIDEO_SYNC" pad="P"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
