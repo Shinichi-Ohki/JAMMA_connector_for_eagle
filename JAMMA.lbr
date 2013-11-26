@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -255,6 +255,66 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="-28.4" y1="-5" x2="57.4" y2="-5" width="0.127" layer="51"/>
 <wire x1="-57.4" y1="-5" x2="-31" y2="-5" width="0.127" layer="51"/>
 </package>
+<package name="CON44_TOP">
+<smd name="2" x="-7.96" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="3" x="-4" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="4" x="-0.04" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="5" x="3.92" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="6" x="7.88" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="7" x="11.84" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="8" x="15.8" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="9" x="19.76" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="10" x="23.72" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="11" x="27.68" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="12" x="31.64" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="13" x="35.6" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="14" x="39.56" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="15" x="43.52" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="16" x="47.48" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="17" x="51.44" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="18" x="55.4" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="19" x="59.36" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="20" x="63.32" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="21" x="67.28" y="1.27" dx="2.3" dy="10" layer="1"/>
+<smd name="22" x="71.24" y="1.27" dx="2.3" dy="10" layer="1"/>
+<wire x1="-15.86" y1="7.27" x2="-15.86" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="75.18" y1="7.27" x2="75.18" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="-15.86" y1="-3.73" x2="-15.36" y2="-4.23" width="0.127" layer="20"/>
+<wire x1="74.68" y1="-4.23" x2="75.18" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="-15.36" y1="-4.23" x2="74.68" y2="-4.23" width="0.127" layer="20"/>
+<wire x1="-15.86" y1="-3.73" x2="75.18" y2="-3.73" width="0.127" layer="51"/>
+<smd name="1" x="-11.92" y="1.27" dx="2.3" dy="10" layer="1"/>
+</package>
+<package name="CON44_BOTTOM">
+<smd name="B" x="-39.64" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="C" x="-35.68" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="D" x="-31.72" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="E" x="-27.76" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="F" x="-23.8" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="H" x="-19.84" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="J" x="-15.88" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="K" x="-11.92" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="L" x="-7.96" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="M" x="-4" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="N" x="-0.04" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="P" x="3.92" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="R" x="7.88" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="S" x="11.84" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="T" x="15.8" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="U" x="19.76" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="V" x="23.72" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="W" x="27.68" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="X" x="31.64" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="Y" x="35.6" y="1.27" dx="2.3" dy="10" layer="16"/>
+<smd name="Z" x="39.56" y="1.27" dx="2.3" dy="10" layer="16"/>
+<wire x1="-47.54" y1="7.27" x2="-47.54" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="43.5" y1="7.27" x2="43.5" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="-47.54" y1="-3.73" x2="-47.04" y2="-4.23" width="0.127" layer="20"/>
+<wire x1="43" y1="-4.23" x2="43.5" y2="-3.73" width="0.127" layer="20"/>
+<wire x1="-47.04" y1="-4.23" x2="43" y2="-4.23" width="0.127" layer="20"/>
+<wire x1="-47.54" y1="-3.73" x2="43.5" y2="-3.73" width="0.127" layer="51"/>
+<smd name="A" x="-43.6" y="1.27" dx="2.3" dy="10" layer="16"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JAMMA_TOP">
@@ -340,6 +400,66 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="-10.16" y1="-40.64" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
 <text x="-10.16" y="33.02" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CON44_TOP">
+<pin name="1" x="17.78" y="30.48" length="middle" direction="out" rot="R180"/>
+<pin name="2" x="17.78" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="3" x="17.78" y="25.4" length="middle" direction="out" rot="R180"/>
+<pin name="4" x="17.78" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="5" x="17.78" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="6" x="17.78" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="7" x="17.78" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="8" x="17.78" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="9" x="17.78" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="10" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="11" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="12" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="13" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="14" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="15" x="17.78" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="16" x="17.78" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="17" x="17.78" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="18" x="17.78" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="19" x="17.78" y="-15.24" length="middle" direction="in" rot="R180"/>
+<wire x1="-7.62" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="33.02" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="-7.62" y2="33.02" width="0.254" layer="94"/>
+<text x="-7.62" y="33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="20" x="17.78" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="21" x="17.78" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="22" x="17.78" y="-22.86" length="middle" direction="in" rot="R180"/>
+</symbol>
+<symbol name="CON44_BOTTOM">
+<pin name="A" x="15.24" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="B" x="15.24" y="25.4" length="middle" direction="out" rot="R180"/>
+<pin name="C" x="15.24" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="D" x="15.24" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="E" x="15.24" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="F" x="15.24" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="H" x="15.24" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="J" x="15.24" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="K" x="15.24" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="L" x="15.24" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="M" x="15.24" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="N" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="P" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="R" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="S" x="15.24" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="T" x="15.24" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="U" x="15.24" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="V" x="15.24" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="W" x="15.24" y="-17.78" length="middle" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="30.48" x2="10.16" y2="30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="30.48" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-27.94" x2="-10.16" y2="30.48" width="0.254" layer="94"/>
+<text x="-10.16" y="30.48" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="X" x="15.24" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="Y" x="15.24" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="Z" x="15.24" y="-25.4" length="middle" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -432,6 +552,78 @@ KEL 1168-056-009&lt;br&gt;</description>
 <connect gate="G$1" pin="TILT_SW" pad="S"/>
 <connect gate="G$1" pin="VIDEO_GREEN" pad="N"/>
 <connect gate="G$1" pin="VIDEO_SYNC" pad="P"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON44_BOTTOM">
+<gates>
+<gate name="G$1" symbol="CON44_BOTTOM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON44_BOTTOM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F" pad="F"/>
+<connect gate="G$1" pin="H" pad="H"/>
+<connect gate="G$1" pin="J" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="T" pad="T"/>
+<connect gate="G$1" pin="U" pad="U"/>
+<connect gate="G$1" pin="V" pad="V"/>
+<connect gate="G$1" pin="W" pad="W"/>
+<connect gate="G$1" pin="X" pad="X"/>
+<connect gate="G$1" pin="Y" pad="Y"/>
+<connect gate="G$1" pin="Z" pad="Z"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON44_TOP">
+<gates>
+<gate name="G$1" symbol="CON44_TOP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON44_TOP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
